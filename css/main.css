@@ -1,0 +1,283 @@
+/*общие*/
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: rgb(220, 220, 220);
+    
+}
+
+
+.container {
+    width: 1120px;
+   /* border: 1px solid red;*/
+    margin: 0 auto;
+    overflow: hidden;   
+    
+}
+section{
+    margin-bottom: 84px;
+    
+}
+/*общие*/
+
+/*Секция 2 меню*/     
+
+.logo {
+    padding-top: 252px;
+    padding-bottom: 118px;
+    display:block;
+  margin: auto;
+}
+.logomin {
+    padding-top: 43px;
+    padding-bottom: 45px;
+    display:block;
+    float: left;
+    margin-left: 94px;
+    margin-right: 94px;
+    
+}
+.colormenu{
+    background-color: #f8f8f8;
+}
+
+.menu {
+    padding: 0;
+   
+    display: block;
+    
+}
+.menu li{
+    float: left;
+    display: block;
+    margin-right: 41px;
+    padding-top: 48px;
+    padding-bottom: 45px;
+    font-size: 12px;
+    }
+.menu li a {
+    color: #1e1e1e;
+}
+/*Секция 2 меню*/
+
+/*Секция 3*/
+.Logo_midl{
+    padding: 0px;
+    
+    display:block;
+  margin-top: 49px;
+  margin-left: 94px;
+}
+
+.test {
+    background: url(../img/Photo3c.png) no-repeat center;
+    height: 400px;
+}
+.text_unit3{
+    margin-left: 94px;
+    font-size: 12px;
+}
+.text_unit3 h4{
+    color: #921026;
+    font-size: 16px;
+}
+.text_unit3 p{
+    margin: 2px;
+}
+
+.raminu_gulam {
+  color: #000000;
+  background: #f7f7f7;
+  border: 1px solid #c2c2c2;
+  font-size: 12px;
+  padding: 9px 5px 9px 12px;
+  font-weight: normal;
+  margin: 6px 0;
+  margin-right: 10px;
+  display: inline-block;
+  text-decoration: none;
+  min-width: 135px;
+  border-radius: 3px;
+}
+
+.raminu_gulam:hover, .raminu_gulam:active {
+  color:#fdf9f9;
+  background:#921026;
+}
+/*секция 3*/
+
+/*секция 4   три колонки*/
+
+.col-1 {
+   background: #ffffff;
+    float: left;
+    padding-left: 53px;
+    padding-right: 20px;
+    padding-top: 38px;
+ margin: 0 auto;
+  }
+  .col-2 {
+    background: #ffffff;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 38px;
+ margin: 0 auto;
+  }
+  .col-3 {
+    background: #ffffff;
+    float: left;
+    padding-left: 20px;
+    padding-right: 47px;
+    padding-top: 38px;
+    margin: 0 auto;
+
+ }
+  
+
+/*секция 4   три колонки*/
+
+/*секция 5*/
+.col-1unit5 {
+    background: #ffffff;
+   float: left;
+    width: 50%;
+    padding: 0px;
+ margin: -12px;
+}
+.col-2unit5 {
+   background: #ffffff;
+   float: left;
+    width: 50%;
+    height: 100%;
+ margin: 0;
+}
+.col-2unit5 h2 {
+  color: #055555;
+}
+.raminu_gulam_u5 {
+    color: #000000;
+    background: #f7f7f7;
+    border: 1px solid #c2c2c2;
+    font-size: 12px;
+    padding: 9px 5px 9px 12px;
+    font-weight: normal;
+    margin: 6px 0;
+    margin-right: 10px;
+    display: inline-block;
+    text-decoration: none;
+    min-width: 135px;
+    border-radius: 3px;
+  margin-right: 70px;
+  float: right;
+    
+  }
+  
+  .raminu_gulam_u5:hover, .raminu_gulam_u5:active {
+    color:#fdf9f9;
+    background:#055555;
+  }
+
+  .col-2unit5buttom{
+    overflow-y: scroll; /* прокрутка по вертикали */
+    height: 280px;
+    width: 100%;
+    margin-top: 37px;
+    
+  }
+  
+  .col-2unit5buttom::-webkit-scrollbar-button {
+      background-image:url('');
+      background-repeat:no-repeat;
+      width:5px;
+      height:0px
+      }
+      
+      .col-2unit5buttom::-webkit-scrollbar-track {
+      background-color:#ecedee
+      }
+      
+      .col-2unit5buttom::-webkit-scrollbar-thumb {
+      -webkit-border-radius: 0px;
+      border-radius: 0px;
+      background-color:#555555;
+      }
+      
+      .col-2unit5buttom::-webkit-scrollbar-thumb:hover{
+      background-color:#555555;
+      }
+      
+      .col-2unit5buttom::-webkit-resizer{
+      background-image:url('');
+      background-repeat:no-repeat;
+      width:4px;
+      height:0px
+      }
+      
+      .col-2unit5buttom::-webkit-scrollbar{
+      width: 4px;
+      }
+  
+/*секция 5*/
+/*footer*/
+.logominFooter {
+  padding-top: 72px;
+  padding-bottom: 45px;
+  display:block;
+  float: left;
+  margin-left: 94px;
+  margin-right: 94px;
+  
+}
+.colorbackg{
+  background-color: #2f2f2f;
+}
+
+.menuf {
+  padding: 0;
+ 
+  display: block;
+  
+}
+.menuf li{
+  float: left;
+  display: block;
+  margin-right: 18px;
+  padding-top: 77px;
+  padding-bottom: 45px;
+  font-size: 12px;
+  }
+.menuf li a {
+  color: #7d7d7d;
+}
+.menuf li span {
+  color: #7d7d7d;
+  margin-left: 80px;
+}
+.marg{
+  margin-left: 160px;
+}
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    float: left;
+    background: #2f2f2f;
+    border: 1px solid #2f2f2f;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+
+.google-pluse a:hover {background: #DD4B39; color: #fff;}
+.twitter a:hover {background: #00acee; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+.pinterest a:hover {background: #c8232c; color: #fff;}
+
+/*footer*/
